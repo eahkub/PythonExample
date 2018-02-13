@@ -17,10 +17,10 @@ import urllib3
 urllib3.disable_warnings()
 
 #TODO: edit to make example work
-username = "api-velocloud@nttct"
-password = "Vel0cloudNTT"
+username = user
+password = pw
 operator = True
-VCO = "https://45.116.217.178/portal/rest/"
+VCO = "https://(ip)/portal/rest/"
 
 class ApiWrapper(object):
   """
